@@ -1,5 +1,5 @@
   datasource:
-    url: jdbc:mysql://111.230.199.112:3306/cloudtest?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+    url: jdbc:mysql://111.230.199.112:3306/cloudtest?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
     username: test123
     password: Test#@123
     driver-class-name: com.mysql.jdbc.Driver
