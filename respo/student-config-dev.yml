@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: studentServer
+  datasource:
+    url: jdbc:mysql://111.230.199.112:3306/cloudtest
+    username: test123
+    password: Test#@123
+    driver-class-name: com.mysql.jdbc.Driver
+    
+eureka:
+  client:
+    service-url:
+     defaultZone: http://192.168.50.161:8761/eureka/
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
