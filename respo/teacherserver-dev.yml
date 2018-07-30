@@ -1,0 +1,7 @@
+  datasource:
+    url: jdbc:mysql://111.230.199.112:3306/cloudtest?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+    username: test123
+    password: Test#@123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
